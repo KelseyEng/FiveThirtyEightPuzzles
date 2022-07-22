@@ -32,6 +32,8 @@ from itertools import product
 # Note die reference frame: if die is sitting on a table, the x-y plan sits on
 # the table and the z axis is perpindicular to the table. Right hand rule applies.
 
+# Written in python version 3.9.7. See requirements.txt for package dependencies
+
 
 def initialdie():
     pos = np.arange(6, dtype=int)
